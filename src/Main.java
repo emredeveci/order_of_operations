@@ -9,15 +9,15 @@ public class Main {
         System.out.print("Please enter the first number: ");
         a = scanner.nextInt();
 
-        System.out.print("Please enter the first number: ");
+        System.out.print("Please enter the second number: ");
         b = scanner.nextInt();
 
-        System.out.print("Please enter the first number: ");
+        System.out.print("Please enter the third number: ");
         c = scanner.nextInt();
 
         result = a + b * c - b;
 
-        System.out.println("your result is: " + result);
+        System.out.println("Your result is: " + result);
 
         scanner.close();
     }
