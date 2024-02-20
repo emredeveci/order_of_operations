@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Please enter the first number: ");
         c = scanner.nextInt();
 
-        result = a + b * c - c;
+        result = a + b * c - b;
 
         System.out.println("your result is: " + result);
 
